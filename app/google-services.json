@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483506730679",
+    "project_id": "breast-cancer-detection-a9b8f",
+    "storage_bucket": "breast-cancer-detection-a9b8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483506730679:android:75447e67e70a97afc37f32",
+        "android_client_info": {
+          "package_name": "com.vishu.breastcancerdetectionfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483506730679-ljldssj8mh2aqoj8ue39hh5vm1qqetmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQmkbcJs4MWehxNbKN9V3P8yt1Su7XWgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483506730679-ljldssj8mh2aqoj8ue39hh5vm1qqetmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

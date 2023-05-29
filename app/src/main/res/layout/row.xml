@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/code_name"
+            android:text="Code Name"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:textColor="@color/blackColor"
+
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expendable_layout"
+
+            >
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Version"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/darkGrayColor"/>
+            <TextView
+                android:id="@+id/api_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Api Level"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#9F9797"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                />
+            <TextView
+                android:id="@+id/desciption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Description TextView"
+                android:textSize="18sp"
+                android:textColor="#A19E9E"
+                android:layout_below="@id/version"
+
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--now we create a model class for card view-->
+
+
+
+</androidx.cardview.widget.CardView>
